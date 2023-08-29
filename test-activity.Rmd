@@ -40,7 +40,7 @@ ncol(loans)
 
 From the code above, how many observations and variables are there in this dataset? Fill in your answer below by replacing XXXXX with the actual numbers. The "**" formats the output to be bold. 
 
-*answer:* There are **XXXXX** cases and **XXXXX** variables in the dataset. 
+*answer:* There are **700** cases and **21** variables in the dataset. 
 
 ## Embedding R variables into your Rmd code
 
@@ -53,7 +53,7 @@ For example, the square root of 10 is `r sqrt(10)`. When you `Knit` your `Rmd` f
 Using what you know about embedding R commands, write a dynamic version of your answer above by using the R command for computing the number of rows and number of columns instead of the actual numbers
 
 
-*answer:* There are **XXXXX** cases and **XXXXX** variables in the dataset. 
+*answer:* There are **`r nrow(loans)`** cases and **`r ncol(loans)`** variables in the dataset. 
 
 
 ## Wrapping up 
