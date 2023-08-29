@@ -50,7 +50,7 @@ Hard coding your data is appealing if your data set doesn't change. Sometimes, i
 
 For example, the square root of 10 is `r sqrt(10)`. When you `Knit` your `Rmd` file, you will see that now sqrt(10) is replaced by the actual value. Try it now by clicking on the `Knit` button above. 
 
-Using what you know about embedding R commands, write a dynamic version of your answer above by using the R command for computing the number of rows and number of columns instead of the actual numbers
+Using what you know about embedding R commands, write a dynamic version of your answer above by using the R command for computing the number of rows and number of columns instead of the actual numbers 
 
 
 *answer:* There are **`r nrow(loans)`** cases and **`r ncol(loans)`** variables in the dataset. 
